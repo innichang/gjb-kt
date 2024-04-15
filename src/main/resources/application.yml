@@ -1,0 +1,16 @@
+spring:
+  server:
+    port: 8080
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/goodjobbuddyKT
+    username: root
+    password: 950922
+
+  jpa:
+    show-sql: true
+    database: mysql
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
